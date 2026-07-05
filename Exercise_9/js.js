@@ -1,18 +1,15 @@
-let books = [
-    {
-        title: "The Great Gatsby",
-        author: "F. Scott Fitzgerald",
-        year: 1925
-    },
-    {
-        title: "To Kill a Mockingbird",
-        author: "Harper Lee",
-        year: 1960
+let car = {
+    make: "Toyota",
+    model: "Camry",
+    year: 2020,
+    start: function () {
+        console.log("The car has started.");
     }
-]
+}
 
-console.log("Title of first book:");
-console.log('Title: ', books[0].title);
-
-console.log("Author of second book:");
-console.log('Author: ', books[1].author);
+console.log("Car object properties:");
+console.log('Make: ', car.make);
+console.log('Model: ', car.model);
+console.log('Year: ', car.year);
+console.log("Start method:");
+car.start(); // Call the start method
