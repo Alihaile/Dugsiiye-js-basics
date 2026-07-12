@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Exercise 36 - Interactive Color picker Example</title>
+    <style>
+        .container {
+            margin-top: 50px;
+            margin-inline: auto;
+            width: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Javascript Exercise 36 - Interactive Color picker Example</h1>
+        <input type="color" id="colorPicker" value="#ff0000" style="width: 330px; height: 50px;">
+        <br><br>
+        <!-- box -->
+        <div id="colorBox" style="width: 330px; height: 250px; background-color: #fff;border: 2px solid #000;"></div>
+        <br><br>
+
+        <ul id="colorHistoryList">
+        </ul>
+
+        <br><br>
+        <button id="clearHistoryBtn">Clear History</button>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
